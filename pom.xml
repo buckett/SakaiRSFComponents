@@ -9,7 +9,7 @@
   <name>Sakai RSF Components Base POM</name>
   <groupId>uk.org.ponder.pure-poms</groupId>
   <artifactId>sakai-components-base</artifactId>
-  <version>10-SNAPSHOT</version>
+  <version>10.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
     <module>evolvers</module>
@@ -19,6 +19,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<rsfutil.version>0.8.1-SNAPSHOT</rsfutil.version>
+	<sakairsf.version>10.1-SNAPSHOT</sakairsf.version>
   </properties>
 <dependencyManagement>
   <dependencies>
@@ -40,6 +41,7 @@
     <connection>scm:git:git://github.com/rsf/SakaiRSFComponents.git</connection>
     <developerConnection>scm:git:git@github.com:rsf/SakaiRSFComponents.git</developerConnection>
     <url>https://github.com/rsf/SakaiRSFComponents.git</url>
+    <tag>HEAD</tag>
   </scm> 
   <repositories>
     <repository>
